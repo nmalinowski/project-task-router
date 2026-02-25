@@ -1,0 +1,11 @@
+{
+  "name": "project-task-router",
+  "version": "0.1.0",
+  "description": "Cross-platform router for research and development tasks using installed skills from nmalinowski/groundwork, nmalinowski/agents, and nmalinowski/ui-ux-pro-max-skill.",
+  "author": {
+    "name": "Project SCH"
+  },
+  "license": "MIT",
+  "agents": "agents/",
+  "skills": "skills/"
+}

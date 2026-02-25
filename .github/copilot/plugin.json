@@ -1,0 +1,23 @@
+{
+  "name": "project-task-router",
+  "description": "Route product research and software development tasks to the right skills and model profile.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Project SCH"
+  },
+  "license": "MIT",
+  "keywords": [
+    "routing",
+    "skills",
+    "product-management",
+    "software-development",
+    "copilot"
+  ],
+  "skills": [
+    "./copilot/skills/project-task-router"
+  ],
+  "agents": [
+    "./copilot/agents/project-task-router.agent.md"
+  ]
+}
+
