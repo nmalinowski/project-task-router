@@ -1,4 +1,12 @@
+<p align="center">
+  <img src="docs/logo.svg" alt="Project Task Router Logo" width="120" height="120">
+</p>
+
 # Project Task Router
+
+[![Deploy to GitHub Pages](https://github.com/nmalinowski/project-task-router/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/nmalinowski/project-task-router/actions/workflows/deploy-pages.yml)
+
+[**Live Router Demo**](https://nmalinowski.github.io/project-task-router/)
 
 Cross-platform task triage plugin for Codex, Claude Code, and Copilot CLI.
 
