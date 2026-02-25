@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+
+# Authors: Nathaniel Malinowski
+# Description: Route a task to recommended skills and model profiles based on intent signals in the task statement. Designed for use in research and development contexts, leveraging installed skills from nmalinowski/groundwork, nmalinowski/agents, and nmalinowski/ui-ux-pro-max-skill.
+# Usage: `python route_task.py --task "Conduct user interviews to validate market demand for new feature." --installed-skills "discovery-process, positioning-statement, deployment-pipeline-design"`
+# License: MIT
+# Update: 2026-02-25
+
 """Route a task to recommended skills and model profiles."""
 
 from __future__ import annotations

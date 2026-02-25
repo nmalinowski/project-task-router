@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Route research and engineering tasks to the right skills and model profile.",
   "author": {
-    "name": "Project SCH"
+    "name": "Nathaniel Malinowski"
   },
   "license": "MIT",
   "agents": "agents/",

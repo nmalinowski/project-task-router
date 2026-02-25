@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "name": "project-task-router",
+  "version": "0.1.0",
+  "description": "Cross-platform router for research and development tasks using installed skills from nmalinowski/groundwork, nmalinowski/agents, and nmalinowski/ui-ux-pro-max-skill.",
+  "author": "Nathaniel Malinowski",
+  "license": "MIT",
+  "repository_url": "https://github.com/nmalinowski/project-task-router",
+  "homepage_url": "https://github.com/nmalinowski/project-task-router",
+  "categories": [
+    "productivity",
+    "development-tools"
+  ],
+  "tags": [
+    "router",
+    "task-management",
+    "skills",
+    "agents"
+  ]
+}
