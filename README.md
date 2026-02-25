@@ -4,7 +4,7 @@
 
 # Project Task Router
 
-[![Deploy to GitHub Pages](https://github.com/nmalinowski/project-task-router/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/nmalinowski/project-task-router/actions/workflows/deploy-pages.yml)
+[![Deploy GitHub Pages](https://github.com/nmalinowski/project-task-router/actions/workflows/deploy-pages.yml/badge.svg?branch=main)](https://github.com/nmalinowski/project-task-router/actions/workflows/deploy-pages.yml)
 
 [**Live Router Demo**](https://nmalinowski.github.io/project-task-router/)
 
