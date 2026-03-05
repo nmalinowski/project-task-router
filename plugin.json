@@ -1,7 +1,7 @@
 {
   "name": "project-task-router",
   "version": "0.1.0",
-  "description": "Cross-platform router for research and development tasks using installed skills from nmalinowski/groundwork, nmalinowski/agents, and nmalinowski/ui-ux-pro-max-skill.",
+  "description": "Cross-platform router for research and development tasks using installed skills from nmalinowski/groundwork, nmalinowski/agents, nmalinowski/ui-ux-pro-max-skill, 21st.dev/community/components, and nano-banana-pro.",
   "author": {
     "name": "Project SCH"
   },

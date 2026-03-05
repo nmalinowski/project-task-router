@@ -45,6 +45,8 @@ It routes incoming work requests to:
   - `nmalinowski/groundwork`
   - `nmalinowski/agents`
   - `nmalinowski/ui-ux-pro-max-skill`
+  - `21st.dev/community/components`
+  - `nano-banana-pro`
 
 ## CLI Usage
 

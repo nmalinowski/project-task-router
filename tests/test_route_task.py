@@ -41,6 +41,7 @@ class RouteTaskTests(unittest.TestCase):
                 "Improve frontend dashboard layout and accessibility in design system",
                 "ui-ux-frontend",
             ),
+            ("Build a landing page using 21st.dev components", "ui-ux-frontend"),
             ("Complete HIPAA compliance threat model and audit controls", "security-compliance-reliability"),
             ("Build RAG pipeline with embeddings and LLM evaluation metrics", "data-analytics-ai"),
             (
@@ -53,6 +54,21 @@ class RouteTaskTests(unittest.TestCase):
             with self.subTest(task=task_text):
                 result = route_task.route_task(task_text)
                 self.assertEqual(result["route"], expected_route)
+
+    def test_21st_dev_component_suggested(self) -> None:
+        result = route_task.route_task("Use community components from 21st.dev")
+        self.assertEqual(result["route"], "ui-ux-frontend")
+        self.assertIn("21st-dev-components", result["secondary_skills"])
+
+    def test_image_generation_suggested(self) -> None:
+        result = route_task.route_task("Generate a logo for the new landing page")
+        self.assertEqual(result["route"], "ui-ux-frontend")
+        self.assertIn("nano-banana-pro", result["secondary_skills"])
+
+    def test_edit_image_suggested(self) -> None:
+        result = route_task.route_task("Edit this image to remove the background")
+        self.assertEqual(result["route"], "ui-ux-frontend")
+        self.assertIn("nano-banana-pro", result["secondary_skills"])
 
     def test_ambiguous_route_surfaces_alternatives(self) -> None:
         result = route_task.route_task("Architecture planning for endpoint migration")

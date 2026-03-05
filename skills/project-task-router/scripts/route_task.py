@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # Authors: Nathaniel Malinowski
-# Description: Route a task to recommended skills and model profiles based on intent signals in the task statement. Designed for use in research and development contexts, leveraging installed skills from nmalinowski/groundwork, nmalinowski/agents, and nmalinowski/ui-ux-pro-max-skill.
+# Description: Route a task to recommended skills and model profiles based on intent signals in the task statement. Designed for use in research and development contexts, leveraging installed skills from nmalinowski/groundwork, nmalinowski/agents, nmalinowski/ui-ux-pro-max-skill, 21st.dev/community/components, and nano-banana-pro.
 # Usage: `python route_task.py --task "Conduct user interviews to validate market demand for new feature." --installed-skills "discovery-process, positioning-statement, deployment-pipeline-design"`
 # License: MIT
 # Update: 2026-02-25
@@ -177,12 +177,19 @@ DOMAINS: List[DomainConfig] = [
             token("frontend", 1.2),
             token("dashboard", 1.1),
             phrase("design system", 1.2),
+            phrase("21st.dev", 1.3),
+            phrase("community components", 1.1),
             token("accessibility", 1.2),
             token("responsive", 1.0),
             token("component", 1.1),
             token("layout", 1.1),
             token("wireframe", 1.1),
             token("mockup", 1.1),
+            token("image", 1.2),
+            token("logo", 1.2),
+            token("icon", 1.1),
+            phrase("generate image", 1.3),
+            phrase("edit image", 1.3),
         ],
         negative_signals=[
             token("hipaa", 1.0),
@@ -195,6 +202,8 @@ DOMAINS: List[DomainConfig] = [
             "product-design",
         ],
         optional_capabilities=[
+            "21st-dev-components",
+            "nano-banana-pro",
             "responsive-design",
             "interaction-design",
             "accessibility-compliance",
@@ -318,6 +327,8 @@ MODEL_HINTS: Dict[str, Dict[str, str]] = {
 
 CAPABILITY_ALIAS_OVERRIDES: Dict[str, List[str]] = {
     "ui-ux-pro-max": ["ui-ux-pro-max", "ui-ux-pro-max-skill", "ui-ux-pro"],
+    "21st-dev-components": ["21st-dev-components", "community-components", "shadcn-ui-components"],
+    "nano-banana-pro": ["nano-banana-pro", "nano-banana-pro-skill", "image-generation"],
     "design-system": ["design-system", "design-system-patterns"],
     "architecture": ["architecture", "architecture-patterns"],
     "tasks": ["tasks", "task-management", "track-management"],

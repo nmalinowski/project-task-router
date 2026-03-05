@@ -10,6 +10,8 @@ Use this skill when a task needs triage before execution. It maps work to the be
 - `nmalinowski/groundwork`
 - `nmalinowski/agents`
 - `nmalinowski/ui-ux-pro-max-skill`
+- `21st.dev/community/components`
+- `nano-banana-pro`
 
 ## When To Use
 
